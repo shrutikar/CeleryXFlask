@@ -23,6 +23,11 @@ Example: RabbitMQ and Redis
 
 ##### Redis Installation :
 
+Two ways to do this:
+
+1. Quick setup : `run-redis.sh`
+2. Follow the following steps
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
