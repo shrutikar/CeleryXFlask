@@ -30,12 +30,12 @@ sudo apt-get install redis-server
 sudo systemctl enable redis-server.service
 ```
 
-Configuration :
+###### Configuration :
 
 ```
 sudo vim /etc/redis/redis.conf
 ```
-add 
+###### add 
 ```
 maxmemory 256mb
 maxmemory-policy allkeys-lru
@@ -44,12 +44,12 @@ maxmemory-policy allkeys-lru
 ```
 sudo systemctl restart redis-server.service
 ```
-Install Redis PHP Extension:
+###### Install Redis PHP Extension:
 ```
 sudo apt-get install php-redis
 ```
 
-test
+###### test
 
 ```
 redis-cli
